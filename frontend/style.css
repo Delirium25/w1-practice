@@ -1,39 +1,57 @@
-/* h1 {
-    color:blueviolet;
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  /* box-sizing: border-box; */
+  background: transparent;
+  font-family: inherit;
 }
 
-#blue {
-    color:lightblue
+a {
+  text-decoration: none;
 }
 
-h1.purple {
-    color:purple;
+a img {
+  border: none;
 }
 
-p {
-    color:brown;
-    font-size: 16px;
+button,
+a {
+  cursor: pointer;
+  color: inherit;
 }
 
-p.purple{
-    color:pink
-} */
-
-body{
-    color: darkorange;
-    font-family: 'Montserrat', sans-serif;
+textarea {
+  resize: none;
 }
 
-div {
-    color:crimson
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
 }
 
-.container1 {
+/* --- end of CSS reset --- */
+
+body {
+  color: darkorange;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.box {
+    width:500px;
+    height:500px;
     background-color: black;
-    height:100px
+    padding:30px;
 }
-
-p {
-    height:80px;
-}
-
